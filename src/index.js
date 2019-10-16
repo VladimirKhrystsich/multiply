@@ -1,3 +1,5 @@
 module.exports = function multiply(first, second) {
-    return String(BigInt(first) * BigInt(second)).slice(0, -1);
+    var a = BigInt(first);
+	var b = BigInt(second);
+return String(a * b).slice(0, -1);
 }
